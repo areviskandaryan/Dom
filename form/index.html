@@ -1,0 +1,37 @@
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href = "./style.css">
+ </head>
+ <body>
+   <section class="request">
+     <h1 class="request-title">Registration for JS lessons</h1>
+     <form class="info-form">
+        <div class="about">
+            <div class ="about-name">
+                <input class = "data" type="text" name="name" placeholder="Name" />
+                <input class = "data" type="text" name="surname" placeholder="Surname" />
+                <input class= "data" type="text" name="middle name" placeholder="Middle name" />
+            </div>
+            <div class="about-contacts">
+                <input class= "data" type="text" name="phone" placeholder="Phone" />
+                <input class = "data" type="email" name="mail" placeholder="e-mail" />
+            </div>
+        </div>
+         <div class="choose-gender">
+             <label>
+                 <input class ="data"  type="checkbox" name="gender" value="female">
+                 Female
+             </label>
+             <label>
+                 <input class ="data" type="checkbox" name="gender" value="male">
+                 Male
+             </label>
+         </div>
+        <button class="button-to-main" type="submit"><b>Submit</b></button>
+     </form>
+   </section>
+   <script src = "./index.js" > </script>
+  </body>
+</html>
